@@ -1,5 +1,5 @@
 import r2wc from '@r2wc/react-to-web-component';
-export * from './src/App';
+export * from './App';
 
 customElements.define(
     'spry-test-app-component',
