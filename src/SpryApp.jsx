@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-function App({data}) {
+function SpryApp({data}) {
   const [count, setCount] = useState(0)
 
   const updateCount = () => {
@@ -21,4 +21,4 @@ function App({data}) {
   )
 }
 
-export default App
+export default SpryApp
