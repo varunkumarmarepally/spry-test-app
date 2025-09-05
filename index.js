@@ -4,6 +4,6 @@ export * from './src/App';
 customElements.define(
     'spry-test-app-component',
     r2wc(App, {
-        props: {name: 'Varun'}
+        props: {name: "string"}
     })
 );
